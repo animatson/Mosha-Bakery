@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <form action="">
+        {{form.hidden_tag()}}
+        <div class="mb-3">
+            {{form.bidhaa.label(class="form-label")}}
+            {{form.bidhaa()}}
+        </div>
+    </form>
+</div>
+</section>
+{% endblock content %}
